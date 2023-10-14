@@ -286,38 +286,50 @@ section{
     padding-top: 20px;
 }
 
-.standout span{
+.standout button{
     display: flex;
     width: 50px;
     height: 50px;
-    
+    cursor: pointer;
     font-size: 20px;
     justify-content: center;
     border-radius: 100px;
     margin: 5px;
     padding: 10px 0;
-    
-}
-
-.standout span:first-of-type{
+    border: none;
     background-color: hsl(0deg 0% 93.73%);
     color: hsl(0deg 0% 34.12%);
+}
+
+.standout button:first-of-type{
+    
     position: absolute;
     right: 80px;
     top: 120px;
 }
-.standout span:last-of-type{
-    background-color: var(--main-color);
-    color: white;
+.standout button:last-of-type{
+    /* background-color: var(--main-color);
+    color: white; */
     position: absolute;
     right: 0px;
     top: 120px;
 }
-.standout-part2{
+.color-button{
+    background-color: var(--main-color)!important;
+    color: white !important;
+}
+
+.cards-salad{
     width: 100%;
+    overflow: hidden;
+}
+.standout-part2{
+    width: 200%;
     margin: 50px 0;
     display: flex;
+    /* overflow: hidden; */
     justify-content: space-between;
+    transition: all 1s ease-in-out;
 }
 
 .salad{
