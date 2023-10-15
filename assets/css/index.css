@@ -7,7 +7,7 @@
     --main-color:#39db4a;
     --secondary-color:#ff6868;
     --image-back-color:#c1f1c6;
-    --backgrounf-color:#f6f6f6;
+    --backgrounf-color:#dcdbdb;
     --text-color:rgb(120, 118, 118);
 }
 body{
@@ -314,6 +314,10 @@ section{
     right: 0px;
     top: 120px;
 }
+.standout button:first-of-type:hover ,.standout button:last-of-type:hover{
+    background-color: var(--main-color)!important;
+    color: white !important;
+}
 .color-button{
     background-color: var(--main-color)!important;
     color: white !important;
@@ -329,7 +333,7 @@ section{
     display: flex;
     /* overflow: hidden; */
     justify-content: space-between;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .salad{
@@ -340,6 +344,7 @@ section{
    border-radius: 30px;
    box-shadow: 0 0 10px var(--backgrounf-color);
    position: relative;
+   margin: 0 30px 0px 5px;
 }
 .salad img{
     width: 70%;
@@ -390,7 +395,7 @@ section{
     border-radius: 0 30px 0 30px;
 }
 .heart i{
-    margin: 16px 20px;
+    margin: 16px 25px;
     color: white;
 }
 
